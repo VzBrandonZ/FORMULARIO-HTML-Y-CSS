@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--STYLE CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!--ANIMATE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- FONT AWESONE -->
+    <script src="https://kit.fontawesome.com/7e73ee931e.js" crossorigin="anonymous"></script>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="logo">Vz <span>Us</span></h1>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Vz us</h3>
+                <form action="" onsubmit=camposllenos()>
+                    <p>
+                        <label class="label" for="identification">Cédula</label>
+                        <input class="countryside" type="text" name="identification" id="identification" required>
+                    </p>
+
+                    <p>
+                        <label class="label" for="lastname">Apellidos</label>
+                        <input class="countryside" type="text" name="lastname" id="lastname" required>
+                    </p>
+
+                    <p>
+                        <label class="label" for="name">Nombres</label>
+                        <input class="countryside" type="text" name="name" id="name" required>
+                    </p>
+
+                    <p>
+                        <label class="label" for="email">Correo</label>
+                        <input class="countryside" type="text" name="email" id="email" required>
+                    </p>
+
+                    <p>
+                        <label class="label" for="phone">Celular</label>
+                        <input class="countryside" type="text" name="phone" id="phone" required>
+                    </p>
+
+                    <p>
+                        <label class="label" for="city">Ciudad</label>
+                        <input class="countryside" type="text" name="city" id="city" required>
+                    </p>
+
+                    <p>
+                        <label class="label" for="direction">Dirección</label>
+                        <input class="countryside" type="text" name="direction" id="direction" required>
+                    </p>
+
+                    <p>
+                        <label class="label" for="dataofbirth">Fecha de nacimiento</label>
+                        <input class="countryside" type="date" name="dataofbirth" id="dataofbirth" required>
+                    </p>
+                    <p>
+                        <label class="label" for="sex">Sexo</label>
+                    </p>
+                        <div class="select">
+                        <select class="countryside sex" type="text" name="sex" id="sex" required>
+                            <option selected disabled>(Seleccione sexo)</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                        </select>
+                    </div>
+                    <p class="block textarea">
+                        <label class="label" for="boxtext">Mensaje</label>
+                        <textarea class="boxtext" message" id="boton" cols="1" rows="2"></textarea>
+                    </p>
+                    <p class="block">
+                        <input class="buttom" type="submit" value="Registrar">
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Mas informacion</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker">Spiderverse</i></li>
+                    <li><i class="fas fa-phone"> 098-625-0744</i></li>
+                    <li><i class="fas fa-envelope-open-text">Shoper687@gmail.com</i></li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam provident ipsa fugit nobis nulla
+                    aspernatur eaque similique maxime molestiae!</p>
+                <p>Company.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function camposllenos() {
+        alert("¡Registro de datos completo!")
+    }
+</script>
+
+</html>
